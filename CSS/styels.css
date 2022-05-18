@@ -1,5 +1,42 @@
 body {
-  background-color: red;
+  background-color: aliceblue;
   margin: 0px;
   padding: 0px;
+}
+
+/*Navigation div index*/
+.top-div {
+  background-color: black;
+  width: 100vw;
+  height: 50px;
+}
+
+.top-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 7%;
+  font-size: 2rem;
+}
+
+.top-div ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease 0s;
+}
+
+.top-div ul li a :hover {
+  color: blue;
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*footer*/
+.footer {
+  background-color: black;
+  width: 100vw;
+  height: 200px;
 }
