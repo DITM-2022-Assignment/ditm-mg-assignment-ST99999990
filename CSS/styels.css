@@ -4,11 +4,11 @@ body {
   padding: 0px;
 }
 
-/*Navigation div index*/
+/* Navigation div index*/
 .top-div {
   background-color: black;
   width: 100vw;
-  height: 50px;
+  height: 300px;
 }
 
 .top-div ul li {
@@ -23,11 +23,11 @@ body {
   color: white;
   transition: 0.3s ease 0s;
 }
-
-.top-div ul li a :hover {
+.top-div ul li a:hover {
   color: blue;
-  text-decoration: none;
+  text-decoration: underline;
 }
+
 .flex {
   display: flex;
   align-items: center;
@@ -35,13 +35,12 @@ body {
 }
 
 .top-div > img {
-  max-width: 28.1rem;
-  max-height: 28.1rem;
+  max-width: 8.1rem;
+  max-height: 8.1rem;
 }
 
-/*footer*/
-.footer {
-  background-color: grey;
-  width: 100vw;
-  height: 200px;
+/*image page 2*/
+.top-div2 > img {
+  max-width: 8.1rem;
+  max-height: 8.1rem;
 }
