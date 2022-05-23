@@ -13,18 +13,18 @@ body {
 
 .top-div ul li {
   list-style-type: none;
-  display: inline-flex;
-  margin: 8%;
+  display: inline;
+  margin: 8.5%;
   font-size: 2rem;
 }
 
 .top-div ul li a {
-  text-decoration: none;
-  color: purple;
+  text-decoration: solid;
+  color: white;
   transition: 0.3s ease 0s;
+  font-family: "Courier New";
 }
 .top-div ul li a:hover {
-  color: purple;
   text-decoration: underline;
 }
 
@@ -32,6 +32,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flex .div1 {
+  background-color: white;
+  width: 100vw;
+  height: 500px;
+  margin: 3px;
+  padding-top: 3px;
+}
+
+.div1 > img {
+  max-width: 100vw;
+  max-height: 500px;
 }
 
 /* Page 2 Navigation */
