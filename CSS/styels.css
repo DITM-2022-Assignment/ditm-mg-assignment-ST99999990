@@ -53,3 +53,28 @@ footer {
   width: 100vw;
   height: 100px;
 }
+
+/* Navigation secondtop-div*/
+.secondtop-div {
+  background-color: brown;
+  width: 100vw;
+  height: 200px;
+}
+
+.secondtop-div ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 8.5%;
+  font-size: 2rem;
+}
+
+.secondtop-div ul li a {
+  text-decoration: solid;
+  color: white;
+  transition: 0.3s ease 0s;
+  font-family: "Courier New";
+}
+
+.secondtop-div ul li a:hover {
+  text-decoration: underline;
+}
