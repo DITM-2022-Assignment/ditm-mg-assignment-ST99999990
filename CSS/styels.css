@@ -42,39 +42,14 @@ body {
   padding-top: 3px;
 }
 
-.div1 > img {
-  width: 100vw;
-  height: 600px;
-}
-
 .div2 {
-  background-color: brown;
+  background-color: orange;
   width: 100vw;
   height: 200px;
 }
 
-.footer {
+footer {
+  background-color: black;
   width: 100vw;
-  height: 200px;
-}
-
-/* Page 2 Navigation */
-
-.secondtop-div {
-  background-color: azure;
-  width: 100vw;
-  height: 300px;
-}
-
-.secondtop-div ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 5%;
-  font-size: 2rem;
-}
-
-.secondtop div ul li a {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 2rem;
+  height: 100px;
 }
