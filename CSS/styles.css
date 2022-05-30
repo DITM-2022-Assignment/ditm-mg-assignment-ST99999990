@@ -1,0 +1,55 @@
+body {
+  background-color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation div index*/
+.top-div {
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+}
+
+.top-div ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 8.5%;
+  font-size: 2rem;
+}
+
+.top-div ul li a {
+  text-decoration: solid;
+  color: white;
+  transition: 0.3s ease 0s;
+  font-family: "cursive";
+}
+.top-div ul li a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex .div1 {
+  background-color: white;
+  width: 100vw;
+  height: 600px;
+  margin: 1px;
+  padding-top: 3px;
+}
+
+.div2 {
+  background-color: orange;
+  width: 100vw;
+  height: 200px;
+}
+
+footer {
+  background-color: beige;
+  width: 100vw;
+  height: 100px;
+}

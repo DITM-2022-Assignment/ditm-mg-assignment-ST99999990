@@ -4,11 +4,11 @@ body {
   padding: 0px;
 }
 
-/* Navigation div index*/
+/*Navigation div*/
 .top-div {
   background-color: black;
   width: 100vw;
-  height: 100px;
+  height: 200px;
 }
 
 .top-div ul li {
@@ -24,6 +24,7 @@ body {
   transition: 0.3s ease 0s;
   font-family: "Courier New";
 }
+
 .top-div ul li a:hover {
   text-decoration: underline;
 }
@@ -40,41 +41,4 @@ body {
   height: 600px;
   margin: 1px;
   padding-top: 3px;
-}
-
-.div2 {
-  background-color: orange;
-  width: 100vw;
-  height: 200px;
-}
-
-footer {
-  background-color: black;
-  width: 100vw;
-  height: 100px;
-}
-
-/* Navigation secondtop-div*/
-.secondtop-div {
-  background-color: brown;
-  width: 100vw;
-  height: 200px;
-}
-
-.secondtop-div ul li {
-  list-style-type: none;
-  display: inline;
-  margin: 8.5%;
-  font-size: 2rem;
-}
-
-.secondtop-div ul li a {
-  text-decoration: solid;
-  color: white;
-  transition: 0.3s ease 0s;
-  font-family: "Courier New";
-}
-
-.secondtop-div ul li a:hover {
-  text-decoration: underline;
 }
