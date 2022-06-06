@@ -25,34 +25,9 @@ body {
   font-family: "Courier New";
 }
 
-.side-navigation[data-v-16f87567] {
-  position: fixed;
-  right: 3rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1px;
-  background: currentColor;
-  display: flex;
-  flex-direction: column;
-  color: #f5eddc;
-  z-index: 2;
-}
-.side-navigation {
-  background: currentColor;
-  color: #f5eddc;
-  display: flex;
-  flex-direction: column;
-  mix-blend-mode: difference;
-  position: fixed;
-  right: 3vw;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1px;
-  z-index: 2;
-}
 .top-div ul li a:hover {
-  text-decoration: line-through;
-  color: black;
+  text-decoration: underline;
+  color: pink;
 }
 
 .flex {
