@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color:black ;
   margin: 0px;
   padding: 0px;
 }
@@ -8,13 +8,15 @@ body {
 .top-div {
   background-color: black;
   width: 100vw;
-  height: 100px;
+  height:500px;
 }
+
+
 
 .top-div ul li {
   list-style-type: none;
   display: inline;
-  margin: 8.5%;
+  margin: 7.5%;
   font-size: 2rem;
 }
 
@@ -29,20 +31,31 @@ body {
   text-decoration: underline;
 }
 
-
-.flex {
+.video {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-/* Div 1 */
-.flex .div1 {
-  background-color: white;
-  width: 100vw;
-  height: 600px;
-  margin: 1px;
-  padding-top: 3px;
-}
+  padding: 30px;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div1 {
+    background-color: none;
+    width: 100vw;
+    height: 200px;
+  }
+
+  .div1 > img {
+    width: 28.1rem;
+    height: 28.1rem;
+  }
+
+
 /* Div 2*/
 .div2 {
   background-color: orange;
@@ -58,20 +71,20 @@ footer {
 
 /* Navigation page2 ( issue )*/
 
-.second .top-div {
+.second-top-div {
   background-color: black;
   width: 100vw;
   height: 200px;
 }
 
-.second .top-div ul li {
+.second-top-div ul li {
   list-style-type: none;
   display: inline-flex;
   margin: 8.5%;
   font-size: 2rem;
 }
 
-.second .top-div ul li a {
+.second-top-div ul li a {
   text-decoration: solid;
   color: whitesmoke;
   transition: 0.3s ease 0s;
