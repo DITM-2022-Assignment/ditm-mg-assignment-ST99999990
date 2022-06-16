@@ -1,5 +1,5 @@
 body {
-  background-color:aliceblue ;
+  background-color: black;
   margin: 0px;
   padding: 0px;
 }
@@ -7,22 +7,20 @@ body {
 /* Navigation div index ( home page )*/
 .top-div {
   background-color: black;
-  width: 100vw;
-  height:100px;
+  width: 100%;
+  height: 100px;
 }
-
-
 
 .top-div ul li {
   list-style-type: none;
   display: inline;
-  margin: 6.5%;
+  margin: 5.5%;
   font-size: 2rem;
 }
 
 .top-div ul li a {
   text-decoration: solid;
-  color: white;
+  color: whitesmoke;
   transition: 0.3s ease 0s;
   font-family: "Courier New";
 }
@@ -31,58 +29,63 @@ body {
   text-decoration: underline;
 }
 
-.video {
+.img_nav {
+  max-width: 4rem;
+  height: 5rem;
+  margin: 2px;
+}
+
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
-  }
+}
 
-  .flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .div1 {
-    background-color: aliceblue;
-    width: 100vw;
-    height: 500px;
-    font-family:sans-serif;
-  }
-
-  .div1>img {
-    width: 97rem;
-    height: 32rem;
-    margin: 0px;
-  }
-
+.div1 {
+  background-color: black;
+  width: 100%;
+  height: 580px;
+  margin-top: 1rem;
+  padding-bottom: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/3390922.webp");
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana;
+  font-size: large;
+}
 
 /* Div 2*/
 .div2 {
   background-color: orange;
-  width: 100vw;
-  height: 200px;
+  width: 100%;
+  height: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 footer {
   background-color: beige;
-  width: 100vw;
-  height: 100px;
+  width: 100%;
+  height: auto;
 }
 
+/* Page 2 ( Issue ) */
 /* Navigation page2 ( issue )*/
 
 .second-top-div {
   background-color: black;
-  width: 100vw;
-  height: 200px;
+  width: 100%;
+  height: 100px;
 }
 
 .second-top-div ul li {
   list-style-type: none;
-  display: inline-flex;
-  margin: 8.5%;
+  display: inline;
+  margin: 5.5%;
   font-size: 2rem;
 }
 
@@ -92,21 +95,30 @@ footer {
   transition: 0.3s ease 0s;
   font-family: "Courier New";
 }
+
+.second-top-div ul li a:hover {
+  text-decoration: underline;
+}
+
+.img_nav2 {
+  max-width: 4rem;
+  height: 5rem;
+  margin: 2px;
+}
 /* Div 1 for page 2*/
 .second-div1 {
-background-color: aliceblue;
-width: 100vw;
-height: 200px;
-margin: 1px;
-padding-top: 3px;
+  background-color: aliceblue;
+  width: 100vw;
+  height: 200px;
+  margin: 1px;
+  padding-top: 3px;
 }
 
 /* Div 2 for page 2*/
 .second-div2 {
- background-color: aliceblue; 
- width: 100vw;
- height: 200px;
- margin: 1px;
- padding-top: 3px ;
+  background-color: aliceblue;
+  width: 100vw;
+  height: 200px;
+  margin: 1px;
+  padding-top: 3px;
 }
-
