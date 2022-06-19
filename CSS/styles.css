@@ -5,27 +5,27 @@ body {
 }
 
 /* Navigation div index ( home page )*/
-.top-div {
+.nav-div {
   background-color: black;
   width: 100%;
   height: 100px;
 }
 
-.top-div ul li {
+.nav-div ul li {
   list-style-type: none;
   display: inline;
   margin: 5.5%;
   font-size: 2rem;
 }
 
-.top-div ul li a {
+.nav-div ul li a {
   text-decoration: solid;
   color: whitesmoke;
   transition: 0.3s ease 0s;
   font-family: "Courier New";
 }
 
-.top-div ul li a:hover {
+.nav-div ul li a:hover {
   text-decoration: underline;
 }
 
@@ -42,11 +42,12 @@ body {
 }
 
 .div1 {
-  background-color: black;
+  background-color: blueviolet;
   width: 100%;
   height: 580px;
   margin-top: 1rem;
   padding-bottom: 0px;
+  /*Background image*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,32 +72,35 @@ footer {
   background-color: beige;
   width: 100%;
   height: auto;
+  font-family: Verdana;
+  font-size: large;
+  color: black;
 }
 
 /* Page 2 ( Issue ) */
 /* Navigation page2 ( issue )*/
 
-.second-top-div {
+.second-nav-div {
   background-color: black;
   width: 100%;
   height: 100px;
 }
 
-.second-top-div ul li {
+.second-nav-div ul li {
   list-style-type: none;
   display: inline;
   margin: 5.5%;
   font-size: 2rem;
 }
 
-.second-top-div ul li a {
+.second-nav-div ul li a {
   text-decoration: solid;
   color: whitesmoke;
   transition: 0.3s ease 0s;
   font-family: "Courier New";
 }
 
-.second-top-div ul li a:hover {
+.second-nav-div ul li a:hover {
   text-decoration: underline;
 }
 
@@ -108,10 +112,18 @@ footer {
 /* Div 1 for page 2*/
 .second-div1 {
   background-color: aliceblue;
-  width: 100vw;
-  height: 200px;
-  margin: 1px;
-  padding-top: 3px;
+  width: 100%;
+  height: 580px;
+  margin-top: 1rem;
+  padding-bottom: 0px;
+  background-image: url(/images/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana;
+  font-size: large;
 }
 
 /* Div 2 for page 2*/
