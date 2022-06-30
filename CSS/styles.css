@@ -7,7 +7,7 @@ body {
 /* Navigation div index ( home page )*/
 .nav-div {
   background-color: black;
-  width: 100%;
+  max-width: 100%;
   height: 100px;
 }
 
@@ -16,6 +16,7 @@ body {
   display: inline;
   margin: 5.5%;
   font-size: 2rem;
+  text-align: right;
 }
 
 .nav-div ul li a {
@@ -32,20 +33,14 @@ body {
 .img_nav {
   max-width: 4rem;
   height: 5rem;
-  margin: 2px;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
 }
 
 .div1 {
   background-color: blueviolet;
   width: 100%;
   height: 580px;
-  margin-top: 1rem;
+  margin-top: 0rem;
   padding-bottom: 0px;
   /*Background image*/
   background-position: center;
@@ -60,19 +55,26 @@ body {
 
 /* Div 2*/
 .div2 {
-  background-color: orange;
+  /*have to change colour from "orange to something else*/
+  background-color: black;
   width: 100%;
-  height: 300px;
+  height: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0px;
-  padding: 0px;
+  color: aliceblue;
+  text-align: right;
+}
+
+.div2 > img {
+  max-width: 15rem;
+  height: 15rem;
+  margin: auto;
 }
 
 footer {
   background-color: beige;
   width: 100%;
   height: auto;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   color: black;
 }
@@ -114,7 +116,7 @@ footer {
   background-color: aliceblue;
   width: 100%;
   height: 580px;
-  margin-top: 1rem;
+  margin-top: 0rem;
   padding-bottom: 0px;
   background-image: url(/images/giphy.gif);
   background-position: center;
@@ -133,4 +135,45 @@ footer {
   height: 200px;
   margin: 1px;
   padding-top: 3px;
+}
+
+/*third page*/
+.nav-bar {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.nav-bar ul a {
+  list-style-type: none;
+  display: inline;
+  margin: 5.5%;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.nav-bar ul li a:hover {
+  text-decoration: underline;
+}
+
+.img_nav3 {
+  max-width: 4rem;
+  height: 5rem;
+  margin: auto;
+}
+
+.third-div1 {
+  background-color: bisque;
+  width: 100%;
+  height: 580px;
+  margin-top: 1rem;
+  padding-bottom: 0px;
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana;
+  font-size: large;
 }
