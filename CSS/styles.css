@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation div index ( home page )*/
+.nav-div {
+  background-color: black;
+  max-width: 100%;
+  height: 100px;
+}
+
+.nav-div ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 5.5%;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.nav-div ul li a {
+  text-decoration: solid;
+  color: whitesmoke;
+  transition: 0.3s ease 0s;
+  font-family: "Courier New";
+}
+
+.nav-div ul li a:hover {
+  text-decoration: underline;
+}
+
+.img_nav {
+  max-width: 4rem;
+  height: 5rem;
+  margin: auto;
+}
+
+.div1 {
+  background-color: blueviolet;
+  width: 100%;
+  height: 580px;
+  margin-top: 0rem;
+  padding-bottom: 0px;
+  /*Background image*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/3390922.webp");
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana;
+  font-size: large;
+}
+
+/* Div 2*/
+.div2 {
+  /*have to change colour from "orange to something else*/
+  background-color: black;
+  width: 100%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  text-align: right;
+}
+
+.div2 > img {
+  max-width: 15rem;
+  height: 15rem;
+  margin: auto;
+}
+
+footer {
+  background-color: beige;
+  width: 100%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: black;
+}
+
+/* Page 2 ( Issue ) */
+/* Navigation page2 ( issue )*/
+
+.second-nav-div {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.second-nav-div ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 5.5%;
+  font-size: 2rem;
+}
+
+.second-nav-div ul li a {
+  text-decoration: solid;
+  color: whitesmoke;
+  transition: 0.3s ease 0s;
+  font-family: "Courier New";
+}
+
+.second-nav-div ul li a:hover {
+  text-decoration: underline;
+}
+
+.img_nav2 {
+  max-width: 4rem;
+  height: 5rem;
+  margin: 2px;
+}
+/* Div 1 for page 2*/
+.second-div1 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 580px;
+  margin-top: 0rem;
+  padding-bottom: 0px;
+  background-image: url(/images/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana;
+  font-size: large;
+}
+
+/* Div 2 for page 2*/
+.second-div2 {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 200px;
+  margin: 1px;
+  padding-top: 3px;
+}
+
+/*third page*/
+.nav-bar {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.nav-bar ul a {
+  list-style-type: none;
+  display: inline;
+  margin: 5.5%;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.nav-bar ul li a:hover {
+  text-decoration: underline;
+}
+
+.img_nav3 {
+  max-width: 4rem;
+  height: 5rem;
+  margin: auto;
+}
+
+.third-div1 {
+  background-color: bisque;
+  width: 100%;
+  height: 580px;
+  margin-top: 1rem;
+  padding-bottom: 0px;
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana;
+  font-size: large;
+}
